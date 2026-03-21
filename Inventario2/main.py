@@ -1,5 +1,4 @@
 print("=== SISTEMA DE INVENTARIO ===")
-
 # Lista donde se guardarán los productos
 inventario = []
 
@@ -64,7 +63,6 @@ def mostrar_inventario():
             print(f"Producto: {producto['nombre']} | Precio: {producto['precio']} | Cantidad: {producto['cantidad']}")
 
 
-
 # FUNCIÓN PARA CALCULAR ESTADÍSTICAS
 def calcular_estadisticas():
     print("\n--- ESTADÍSTICAS ---")
@@ -110,8 +108,6 @@ while True:
         print("Error: Opción inválida. Intente nuevamente.")
 
 
-
-# COMENTARIO FINAL
 # Este programa permite gestionar un inventario básico usando listas y diccionarios.
 # Se aplican estructuras condicionales, bucles y validaciones para asegurar
 # que los datos ingresados sean correctos.
